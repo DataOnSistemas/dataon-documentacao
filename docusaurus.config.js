@@ -72,12 +72,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/DO - Logotipo - Prancheta 4.png',
       navbar: {
-        title: 'DataOn',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'DataOn Sistemas',
+          src: 'img/DO - Logotipo - Prancheta 4.png',
         },
         items: [
           {
@@ -87,7 +86,7 @@ const config = {
             label: 'Tutorial',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/blog', label: 'Notas de versões', position: 'left'},
+          {to: '/docs/notes', label: 'Notas de versões', position: 'left'},
         ],
       },
       footer: {
@@ -102,7 +101,7 @@ const config = {
               },
               {
                 label: 'Notas de versões',
-                to: '/docs/intro',
+                to: '/notes',
               },
             ],
           },
